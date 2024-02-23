@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Display</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  .container {
+    width: 80%;
+    max-width: 640px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  video {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Laser spoofing motion sensor</h1>
+  <video controls>
+    <source src="example1.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
+
+</div>
+
+</body>
+</html>
